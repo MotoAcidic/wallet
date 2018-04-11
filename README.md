@@ -7,7 +7,7 @@ The wallet interface is hosted via GitHub Pages at [https://avocadonetwork.githu
 
 A compatible wallet provider is required, such as MetaMask.
 
-![Download MetaMask](/images/download-metamask-dark.png?raw=true)
+[![Download MetaMask](/images/download-metamask-dark.png?raw=true)](https://metamask.io/)
 
 ## License
 
