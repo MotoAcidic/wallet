@@ -84,7 +84,7 @@ function isAddress(address) {
 
 function isChecksumAddress(address) {
     address = address.replace('0x','');
-    var addressHash = sha3(address.toLowerCase());
+    var addressHash = web3.sha3(address.toLowerCase());
     for (var i = 0; i < 40; i++ ) {
         if ((parseInt(addressHash[i], 16) > 7 && address[i].toUpperCase() !== address[i]) || (parseInt(addressHash[i], 16) <= 7 && address[i].toLowerCase() !== address[i])) {
             return false;
