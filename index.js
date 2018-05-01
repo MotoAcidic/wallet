@@ -52,6 +52,9 @@ function transferTokens() {
     }
 
     var recipientAddress = document.getElementById("recipientAddress").value;
+    if (!recipientAddress.startsWith("0x")) {
+        recipientAddress = '0x' + recipientAddress;
+    }
     if (!recipientAddress || !web3.isAddress(recipientAddress)) {
         document.getElementById("transferResult").innerHTML = 'Invalid ethereum address';
         return;        
@@ -72,6 +75,7 @@ function isNumeric(value) {
     return regex.test(value);
 }
 
+/*
 function isAddress(address) {
     if (!/^(0x)?[0-9a-f]{40}$/i.test(address)) {
         return false;
@@ -92,3 +96,4 @@ function isChecksumAddress(address) {
     }
     return true;
 };
+*/
