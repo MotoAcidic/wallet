@@ -52,7 +52,7 @@ function transferTokens() {
     }
 
     var recipientAddress = document.getElementById("recipientAddress").value;
-    if (!recipientAddress || !isAddress(recipientAddress)) {
+    if (!recipientAddress || !web3.isAddress(recipientAddress)) {
         document.getElementById("transferResult").innerHTML = 'Invalid ethereum address';
         return;        
     }
