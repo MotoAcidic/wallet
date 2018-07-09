@@ -1,6 +1,6 @@
 # Git-Grobe.github.io
 # Avocado Wallet
-A simple wallet interface providing transfer functionality for the Avocado (AVO) token.
+A simple wallet interface (version 2.0) providing transfer functionality for the Avocado (AVO) token.
 
 ## Usage
 
