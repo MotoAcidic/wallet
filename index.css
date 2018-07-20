@@ -1,14 +1,27 @@
 header {
     text-align: center;
+    margin-top: 110px;
+
 }
 body {
-    margin-top: 30px;
+    margin-top: 100px;
 }
-div.container {
-    width: 50%;
-    margin: auto;
-    border: 1px solid gray;
-    padding: 30px;
+div.circle {
+  border-radius: 50%;
+  color: black;
+  font-family: Helvetica, Arial Black, sans;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: center;
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  background: #f7ec9a;
+  box-shadow: 0px 0px 0px 15px #99bd4f, 0px 0px 0px 30px #7ba237, 0px 0px 0px 45px #2d5109;
+  margin: auto;
+  
+ 
+  
 }
 div.panel {
     padding-top: 10px;
@@ -16,20 +29,21 @@ div.panel {
 }
 div.field-value {
     display:inline-block;
+    color: #99bd4f;
 }
 div.button {
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: right;
+    text-align: center;
 }
 .btn {
-  background: #4caf50;
+  background: #6b6032;
   padding: 10px 20px 10px 20px;
   border-radius: 10px;
   text-decoration: none;
   color: white;
 }
 .btn:hover {
-  background: #3e8e41;
+  background: #534b26;
   text-decoration: none;
 }

@@ -5,7 +5,7 @@ const tokenSymbol = 'AVO'
 contractInstance = web3.eth.contract(abi).at('0xfa6f7881E52fDF912c4a285D78a3141B089cE859');
 
 function displayProviderInfo() {
-    document.getElementById("main").innerHTML = 'No compatible wallet provider found. Please install <a target="_blank" href="https://metamask.io/">Metamask</a>.';
+    document.getElementById("main").innerHTML = '</br>'+'</br>'+'</br>'+'</br>'+'</br>'+'</br>'+'</br>'+'</br>'+'</br>'+'</br>'+'</br>'+'</br>'+'No compatible wallet provider found. Please install <a target="_blank" href="https://metamask.io/">Metamask</a>.';
 }
 
 function startApp() {
